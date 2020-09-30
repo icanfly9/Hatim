@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/signback.jpg);
+	background-size: cover;
+}
+.form{
+	border: 1px solid #fff;
+	margin-top: 200px;
+	width: 25%;
+	margin-left: 35%;
+	padding: 30px;
+	border-radius: 15px;
+}
+.avatar{
+	width: 100px;
+	height: 100px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: -12%;
+	margin-left: 8%;
+}
+h1{
+	font-size: 20px;
+	color: #fff;
+	animation: signin 2s infinite;
+	margin-left: 110px;
+}
+.form input[type="text"], input[type="password"], input[type="email"]{
+	width: 200px;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #1a7571;
+	margin-top: 10px;
+	color: #fff;
+	height: 20px;
+	margin-left: 30px;
+	padding-top: 20px;
+}
+.form input[type="submit"]{
+	margin-left: 85px;
+	margin-top:  25px;
+	width: 100px;
+	border-radius: 20px;
+	background: transparent;
+	border-color: 2px solid black;
+	color: white;
+	background: #1a7571;
+	border: 1px solid #fff;
+}
+.form input[type="submit"]:hover{
+	cursor: pointer;
+}
+.home{
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+	padding-top: 10px;
+	size: 15px;
+	margin-left: 50px;
+	transition: 0.2s ease;
+}
+.home:hover{
+	text-decoration: underline;
+}
+.form button{
+	margin-left: 25px;
+	margin-top:  25px;
+	width: 100px;
+	border-radius: 20px;
+	background: transparent;
+	border-color: 2px solid black;
+	color: white;
+	background: #1a7571;
+	border: 1px solid #fff;
+	display: inline-block;
+}
+.form button:hover{
+	cursor: pointer;
+}
+h1:hover{
+	cursor: default;
+}
